@@ -24,5 +24,4 @@ class BowlingGame:
         pass
 
     def set_second_bonus_throw(self, bonus_throw: int) -> None:
-
         pass
