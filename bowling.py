@@ -12,7 +12,6 @@ class BowlingGame:
             raise BowlingError
         self._frames.append(frame)
 
-
     def get_frame_at(self, i: int) -> Frame:
         if i >= len(self._frames):
             raise BowlingError
@@ -25,4 +24,5 @@ class BowlingGame:
         pass
 
     def set_second_bonus_throw(self, bonus_throw: int) -> None:
+
         pass
